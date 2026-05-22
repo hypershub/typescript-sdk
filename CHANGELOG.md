@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.1 (2026-05-22)
+
+- Open-source release preparation
+- Added LICENSE, CONTRIBUTING.md, SECURITY.md, CHANGELOG.md
+- Added GitHub CI and npm publish workflows
+- Added issue templates and PR template
+- Repository metadata updated
+
 ## 0.3.0 (2026-05-22)
 
 - Streaming support for chat completions, responses, messages, and Gemini

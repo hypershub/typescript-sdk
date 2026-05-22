@@ -20,15 +20,7 @@ jobs:
         with:
           node-version: 22
           registry-url: https://registry.npmjs.org
-      - name: Install
-        run: npm ci
-      - name: Type check
-        run: npm run typecheck
-      - name: Test
-        run: npm test
-      - name: Build
-        run: npm run build
+      - name: Preflight
+        run: npm run preflight
       - name: Publish to npm
         run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
