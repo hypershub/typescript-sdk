@@ -1,0 +1,23 @@
+{
+  "name": "@hypershub/sdk-examples",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "chat": "npx tsx chat-completions.ts",
+    "tools": "npx tsx chat-with-tools.ts",
+    "messages": "npx tsx messages-anthropic.ts",
+    "responses": "npx tsx responses.ts",
+    "gemini": "npx tsx gemini.ts",
+    "models": "npx tsx models.ts",
+    "errors": "npx tsx error-handling.ts"
+  },
+  "dependencies": {
+    "@hypershub/sdk": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "dotenv": "^16.4.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

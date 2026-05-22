@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a problem with @hypershub/sdk
+labels: [bug]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: SDK version
+      placeholder: npm list @hypershub/sdk or package.json
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      render: typescript
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Remove API keys before pasting.
+      render: text

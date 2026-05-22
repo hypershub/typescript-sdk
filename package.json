@@ -1,0 +1,61 @@
+{
+  "name": "@hypershub/sdk",
+  "version": "0.3.0",
+  "description": "Official TypeScript SDK for HypersHub API",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "homepage": "https://github.com/simonguo/typescript-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonguo/typescript-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simonguo/typescript-sdk/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "hypershub",
+    "ai",
+    "llm",
+    "openai",
+    "anthropic",
+    "gemini",
+    "sdk"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
