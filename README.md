@@ -179,7 +179,7 @@ const client = new HypersHub({
 
 ## Requirements
 
-- Node.js ≥ 18 (native `fetch` required)
+- Node.js ≥ 20 (native `fetch` required)
 
 ## License
 

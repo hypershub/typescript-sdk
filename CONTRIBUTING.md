@@ -6,7 +6,7 @@ Thanks for contributing to `@hypershub/sdk`.
 
 Requirements:
 
-- Node.js 18+
+- Node.js 20+
 - npm
 
 Setup:
