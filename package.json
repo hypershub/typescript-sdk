@@ -28,13 +28,13 @@
     "dist",
     "README.md"
   ],
-  "homepage": "https://github.com/simonguo/typescript-sdk#readme",
+  "homepage": "https://github.com/hypershub/typescript-sdk#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simonguo/typescript-sdk.git"
+    "url": "git+https://github.com/hypershub/typescript-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/simonguo/typescript-sdk/issues"
+    "url": "https://github.com/hypershub/typescript-sdk/issues"
   },
   "publishConfig": {
     "access": "public"
