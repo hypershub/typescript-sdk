@@ -16,7 +16,7 @@ import { HypersHub } from '@hypershub/sdk'
 // API Key 从 .env 文件或环境变量读取
 const client = new HypersHub()
 // 也可指定 baseURL、timeout 等选项:
-// const client = new HypersHub({ baseURL: 'https://apiclaw.cc', timeout: 60000 })
+// const client = new HypersHub({ baseURL: 'https://hypershub.com', timeout: 60000 })
 
 // -------------------------------------------------------------------------
 // 1. Non-streaming — single response

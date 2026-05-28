@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/@hypershub/sdk.svg)](https://www.npmjs.com/package/@hypershub/sdk)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Official TypeScript SDK for [HypersHub](https://apiclaw.cc) — access Claude, GPT, Gemini and more through endpoint-aligned client resources.
+Official TypeScript SDK for [HypersHub](https://hypershub.com) — access Claude, GPT, Gemini and more through endpoint-aligned client resources.
 
 ## Repository
 
@@ -164,7 +164,7 @@ try {
 ```typescript
 const client = new HypersHub({
   apiKey: 'sk-hy-...',             // or set HYPERSHUB_API_KEY env var
-  baseURL: 'https://apiclaw.cc',   // default
+  baseURL: 'https://hypershub.com',   // default
   defaultHeaders: {
     'X-Custom-Header': 'value',
   },

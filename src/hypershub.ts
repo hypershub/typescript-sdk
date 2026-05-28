@@ -8,7 +8,7 @@ import { Models } from './resources/models.js'
 export interface HypersHubOptions {
   /** Your HypersHub API key (e.g. `sk-hy-...`). Defaults to `process.env.HYPERSHUB_API_KEY`. */
   apiKey?: string
-  /** API base URL. Defaults to `https://apiclaw.cc`. */
+  /** API base URL. Defaults to `https://hypershub.com`. */
   baseURL?: string
   /** Default headers sent with every request. */
   defaultHeaders?: Record<string, string>
@@ -43,7 +43,7 @@ export class HypersHub implements HypersHubClient {
       )
     }
     this._apiKey = apiKey
-    this._baseURL = (options.baseURL ?? 'https://apiclaw.cc').replace(/\/$/, '')
+    this._baseURL = (options.baseURL ?? 'https://hypershub.com').replace(/\/$/, '')
     this._defaultHeaders = options.defaultHeaders ?? {}
     this._timeout = options.timeout
 
